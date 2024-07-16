@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
     return(
-        <div className="flex flex-col justify-center items-center p-6  lg:justify-center lg:items-center">
-            <div  className=" flex flex-row items-center justify-center w-full  p-0">
+        <div className="flex flex-col justify-center items-center  lg:justify-center lg:items-center">
+            <div  className=" bg-bgImageMb lg:bg-bgImageDt flex flex-row items-center justify-center w-full  p-0">
                 <img className=" mt-36 w-40" src="logo.svg" />
 
             </div>

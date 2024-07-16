@@ -14,11 +14,11 @@ module.exports = {
       fontFamily: {
         Bai: ['Bai Jamjuree', 'San-serif']
       },
-      /**backgroundImage: {
-        bgImageDt: "url('/bg-header-desktop.png')",
-        bgImageMb: "url('/bg-header-mobile.png')",
+      backgroundImage: {
+        bgImageDt: "url('/public/bg-header-desktop.png')",
+        bgImageMb: "url('/public/bg-header-mobile.png')",
 
-      } **/
+      }
     },
   },
   plugins: [],
