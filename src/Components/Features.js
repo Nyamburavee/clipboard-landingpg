@@ -7,14 +7,14 @@ const Features = () =>{
                 <img src=" image-computer.png" alt=" computer"  />
             </div>
             
-            <div className=" lg:flex lg:flex-col lg:justify-center lg:items-start  text-wrap
+            <div className=" text-center lg:flex lg:flex-col lg:justify-center lg:items-start
             lg:text-left lg:w-96">
-                <h3 className=" text-darkGrayishBlue text-4xl font-bold mb-4 text-center">Quick Search</h3>
+                <h3 className=" text-darkGrayishBlue text-4xl font-bold mb-4">Quick Search</h3>
                 <h5 className=" text-grayishBlue text-2xl mb-12">Easily search your snippets by content, categogry, web address, application
                     and more </h5>
                 
                 <h3  className="text-darkGrayishBlue text-4xl font-bold mb-4">iCloud Sync</h3>
-                <h5 className=" text-grayishBlue text-2xl mb-12">Instantly saves and syncs snippets across all your devices. </h5>
+                <h5 className=" text-grayishBlue text-2xl mb-12 text-center">Instantly saves and syncs snippets across all your devices. </h5>
 
                 <h3 className="text-darkGrayishBlue text-4xl font-bold mb-4">Complete History</h3>
                 <h5 className=" text-grayishBlue text-2xl mb-12">Retrieve any snippets from the first moment you started using the app. </h5>

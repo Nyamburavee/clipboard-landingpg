@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+.icon-hover img {
+    transition: filter 0.3s;
+  }
+  
+  .icon-hover:hover img {
+    filter: brightness(0) saturate(100%) invert(35%) sepia(70%) saturate(469%) 
+    hue-rotate(93deg) brightness(180%) contrast(80%);  }
+
+  

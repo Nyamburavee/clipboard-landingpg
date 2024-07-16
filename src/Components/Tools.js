@@ -3,12 +3,12 @@ import React from "react";
 const Tools = () => {
     return(
         <div>
-            <div className=" mt-32">
+            <div className=" mt-32 text-center lg:w-2/3 lg:text-right">
                 <h2 className="text-darkGrayishBlue text-4xl font-bold">Supercharge your Workflow</h2>
-                <p className="  text-grayishBlue text-2xl">We've got the tools to boost your produuctivity.</p>
+                <p className="  text-grayishBlue text-2xl mt-6">We've got the tools to boost your produuctivity.</p>
             </div>
             
-            <div className=" flex flex-col mt-28 m-16 lg:flex-row lg:gap-3">
+            <div className=" flex flex-col mt-28  m-16 lg:flex-row lg:gap-3 text-center">
                 <div className=" flex flex-col justify-center items-center"> 
                     <img className=" w-20 lg:w-14" src="icon-blacklist.svg" alt=" icon-blacklist" />
                     <h3 className="text-darkGrayishBlue text-4xl font-bold mt-16 lg:text-3xl">Create Blacklists</h3>
@@ -18,10 +18,10 @@ const Tools = () => {
 
                 </div>
 
-                <div className=" flex flex-col justify-center items-center mt-20 lg:mt-0"> 
+                <div className=" flex flex-col justify-center items-center mt-20 lg:mt-0 text-center"> 
                     <img className=" w-20 lg:w-14" src="icon-text.svg" alt=" icon-text" />
                     <h3 className="text-darkGrayishBlue text-4xl font-bold mt-16 lg:text-3xl ">Plain text snippets</h3>
-                    <p className=" text-grayishBlue text-2xl mt-4 lg:text-xl"> Remove unwanted formatting from copied text for a consistent look.
+                    <p className=" text-grayishBlue text-2xl mt-4 mb-20 lg:mb-0 lg:text-xl"> Remove unwanted formatting from copied text for a consistent look.
                     </p>
 
                 </div>
@@ -37,7 +37,7 @@ const Tools = () => {
             </div>
 
             <div className=" flex flex-col justify-center items-center gap-24 mb-20 lg:flex-row lg: mt-44">
-                <img className=" w-40" src=" logo-google.png" alt=" google-logo" />
+                <img className=" w-40 mt-10" src=" logo-google.png" alt=" google-logo" />
                 <img className=" w-40" src=" logo-ibm.png" alt=" ibm-logo" />
                 <img className=" w-40" src=" logo-microsoft.png" alt=" microsoft-logo" />
                 <img className=" w-40" src=" logo-hp.png" alt=" hp-logo" />
@@ -45,17 +45,19 @@ const Tools = () => {
 
             </div>
 
-            <div className=" flex flex-col justify-center items-center  mt-52 lg:justify-center lg:items-center">
-            <div className=" lg: w-1/2">
-                <h3 className="text-darkGrayishBlue text-4xl font-bold mb-4">Clipboard for iOS and Mac OS</h3>
-                <p className="  text-grayishBlue text-2xl mb-14">Available for free on the app store. Download for Mac or iOS,
-                    sycn to iCloud and you're ready to start adding to your clipboard.
-                </p>
-            </div>
+            <div className=" flex flex-col justify-center items-center mx-6  mt-52 lg:justify-center lg:items-center">
+                <div className=" lg:w-1/2 text-center">
+                    <h3 className="text-darkGrayishBlue text-4xl font-bold mb-4">Clipboard for iOS and Mac OS</h3>
+                    <p className="  text-grayishBlue text-2xl mb-14">Available for free on the app store. Download for Mac or iOS,
+                        sycn to iCloud and you're ready to start adding to your clipboard.
+                    </p>
+                </div>
                 
                 <div className=" flex flex-col gap-4 items-center lg:flex-row mb-52">
-                    <button className=" bg-strongCyan rounded-full w-96 p-4 text-white text-2xl lg:w-80">Download for iOS</button>
-                    <button className=" bg-lightBlue w-96 rounded-full p-4 text-white text-2xl lg:w-80">Download for Mac</button>
+                    <button className=" bg-strongCyan rounded-full w-96 p-4 text-white text-2xl
+                     lg:w-80 hover:brightness-110 cursor-pointer">Download for iOS</button>
+                    <button className=" bg-lightBlue w-96 rounded-full p-4 text-white text-2xl 
+                    lg:w-80 hover:brightness-110 cursor-pointer">Download for Mac</button>
                 </div>
             </div>
 
